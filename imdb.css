@@ -4,24 +4,27 @@
     font-family: sans-serif;
     color: aliceblue;
 }
-
+#logo{
+    height: 55px;
+    width:200px;
+}
 nav {
     height: 15vh;
     width: 100vw;
-    background-color: #082045;
+    background-color: #283673;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     position: relative;
     border-bottom: 1px solid white;
-    box-shadow: 0 0 10px 5px #48abe0;
+    
 }
 
 .home-btn-container {
     position: absolute;
     left: 5%;
     border-radius: 2rem;
-    ;
+    margin-left: 180px;
     font-size: larger;
     padding: 4px;
     cursor: pointer;
@@ -35,6 +38,7 @@ nav {
     display: flex;
     align-items: center;
     padding: 5px;
+    margin-left: -130px;
     
 }
 
@@ -116,7 +120,7 @@ i {
 main {
     width: 100vw;
     height: 85vh;
-    background-color: #4287f5; 
+    background-color: #1b1c1e; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -170,6 +174,7 @@ main {
     position: absolute;
     left: 50%;
     top: 0%;
+    color: whitesmoke;
 }
 
 .year {
@@ -211,7 +216,7 @@ main {
     top: 43%;
     left: 50%;
     padding: .5rem;
-    background-color: #90a6b3;
+    background-color: blue;
     border-radius: 2rem;
 }
 
@@ -233,7 +238,7 @@ main {
 }
 
 #movie-info-container div {
-    color: black;
+    color: whitesmoke;
     font-weight: bolder;
 }
 
