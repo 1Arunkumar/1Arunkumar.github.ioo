@@ -173,21 +173,21 @@ main {
 .name {
     position: absolute;
     left: 50%;
-    top: 0%;
+    top: 10%;
     color: whitesmoke;
 }
 
 .year {
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 40%;
 }
 
 .rating {
     position: absolute;
     background-color: rgb(204, 204, 34);
     left: 62%;
-    top: 18%;
+    top: 38%;
     padding: .5rem;
     border-radius: 2rem;
 }
@@ -195,25 +195,25 @@ main {
 .released-date {
     position: absolute;
     left: 78%;
-    top: 20%;
+    top: 30%;
 
 }
 
 .writer {
     position: absolute;
-    top: 27%;
+    top: 30%;
     left: 50%;
 }
 
 .actor {
     position: absolute;
-    top: 34%;
+    top: 48%;
     left: 50%;
 }
 
 .language {
     position: absolute;
-    top: 43%;
+    top: 58%;
     left: 50%;
     padding: .5rem;
     background-color: blue;
@@ -222,7 +222,7 @@ main {
 
 .plot {
     position: absolute;
-    top: 52%;
+    top: 68%;
     left: 50%;
     width: 45%;
     height: auto;
